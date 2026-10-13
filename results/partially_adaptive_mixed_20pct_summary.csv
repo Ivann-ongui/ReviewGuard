@@ -1,0 +1,2 @@
+dataset,attack_type,attack_ratio,analysis_reviews,injected_reviews,no_defense_tvd,reviewguard_base_tvd,relative_tvd_reduction_percent,injected_attack_median_weight,injected_attack_mean_weight
+Uber,partially_adaptive_mixed,0.200000,9000,1800,0.104611,0.043016,58.880292,0.293892,0.292573

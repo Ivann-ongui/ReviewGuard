@@ -1,0 +1,13 @@
+dataset,representation,method,tvd_to_clean
+google_play_app_reviews,TF-IDF cohort,CARD,0.0505419066655054
+google_play_app_reviews,TF-IDF cohort,CARD-T,0.0061151749519789
+google_play_app_reviews,TF-IDF cohort,No defense,0.0734084165224264
+google_play_app_reviews,intfloat/multilingual-e5-small,CARD,0.0549032181692592
+google_play_app_reviews,intfloat/multilingual-e5-small,CARD-T,0.0034070908424918
+google_play_app_reviews,intfloat/multilingual-e5-small,No defense,0.0734084165224264
+uber,TF-IDF cohort,CARD,0.0087094629935675
+uber,TF-IDF cohort,CARD-T,0.0010854682922642
+uber,TF-IDF cohort,No defense,0.1145185185185185
+uber,intfloat/multilingual-e5-small,CARD,0.0251917211675947
+uber,intfloat/multilingual-e5-small,CARD-T,0.0010529266380987
+uber,intfloat/multilingual-e5-small,No defense,0.1145185185185185

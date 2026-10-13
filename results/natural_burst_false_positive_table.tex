@@ -1,0 +1,22 @@
+% Auto-generated false-positive diagnostic; base ReviewGuard weights only.
+\begin{table}[t]
+\centering
+\small
+\caption{False-positive diagnostic on Uber natural low-rating bursts. Natural bursts are selected from the non-injected analysis split using only time-bucket counts and a diversity filter; lower weights for injected attacks indicate stronger coordinated evidence.}
+\label{tab:natural_burst_false_positive}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+Group & \#Reviews & \#Buckets & Max dup. share & Median $w$ & Mean $w$ & $\%\,w<0.3$ & $\%\,w<0.5$\\
+\midrule
+Normal low-rating reviews & 1,974 & -- & 0.004 & 0.779 & 0.639 & 18.4 & 22.4\\
+Natural low-rating burst & 227 & 23 & 0.009 & 0.648 & 0.597 & 14.1 & 18.9\\
+Injected template attack & 635 & -- & 0.085 & 0.160 & 0.170 & 98.0 & 100.0\\
+Injected paraphrase attack & 459 & -- & 0.022 & 0.602 & 0.581 & 10.0 & 25.7\\
+Injected slow-drift attack & 388 & -- & 0.211 & 0.030 & 0.055 & 96.9 & 100.0\\
+Injected mixed-rating camouflage & 318 & -- & 0.220 & 0.036 & 0.298 & 53.5 & 58.8\\
+Injected coordinated attack & 1,800 & -- & 0.046 & 0.176 & 0.272 & 67.4 & 73.8\\
+\bottomrule
+\end{tabular}
+}
+\end{table}

@@ -1,0 +1,13 @@
+dataset,representation,method,tvd_to_clean,negative_abs_error
+uber,TF-IDF cohort,No defense,0.1145185185185185,0.0976666666666666
+uber,TF-IDF cohort,CARD,0.0087094629935675,0.0087094629935674
+uber,TF-IDF cohort,CARD-T,0.0010854682922642,0.0004898108311144
+google_play_app_reviews,TF-IDF cohort,No defense,0.0734084165224264,0.0734084165224264
+google_play_app_reviews,TF-IDF cohort,CARD,0.0505419066655054,0.0369457507992511
+google_play_app_reviews,TF-IDF cohort,CARD-T,0.0061151749519789,0.0029553887260458
+uber,intfloat/multilingual-e5-small,No defense,0.1145185185185185,0.0976666666666666
+uber,intfloat/multilingual-e5-small,CARD,0.0251917211675947,0.0208198850333934
+uber,intfloat/multilingual-e5-small,CARD-T,0.0010529266380987,0.000431618052533
+google_play_app_reviews,intfloat/multilingual-e5-small,No defense,0.0734084165224264,0.0734084165224264
+google_play_app_reviews,intfloat/multilingual-e5-small,CARD,0.0549032181692592,0.0068384890047175
+google_play_app_reviews,intfloat/multilingual-e5-small,CARD-T,0.0034070908424918,0.0016669209512341

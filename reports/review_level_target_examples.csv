@@ -1,0 +1,3 @@
+row_id,attack_type,is_injected_attack,content,at,reviewCreatedVersion,sample_weight,dm_sample_weight,cohort_dm_sample_weight
+real_6402,clean_real,0,So far my experience with Uber has been awesome,2024-12-05 04:05:33,4.554.10001,0.9665293195584632,0.9679151409031703,0.9355183625274752
+attack_279,template_review_bomb,1,Uber is unusable after the old update. Driver cancels and I still get charged.,2024-12-11 05:19:20,4.532.10001,0.1908243341547637,0.9524654172328718,0.18175357904890194

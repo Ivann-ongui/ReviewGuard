@@ -1,0 +1,16 @@
+# Reproducible embedding caches (paper input CSVs are tracked)
+*.npy
+__pycache__/
+*.py[cod]
+.venv/
+reproduced/
+tmp/
+# TeX build products; keep the supplied final PDF and figure PDFs
+*.aux
+*.log
+*.out
+*.blg
+*.bbl
+*.synctex.gz
+/paper/reviewguard_preview.pdf
+/docs/candidate_text.txt

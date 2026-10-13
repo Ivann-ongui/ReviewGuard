@@ -1,0 +1,245 @@
+{
+  "attack_sweep": {
+    "No defense": [
+      0.0325343915343915,
+      0.0618080808080808,
+      0.1145185185185185,
+      0.1567264957264957,
+      0.1949682539682539
+    ],
+    "Group only": [
+      0.0421238454468852,
+      0.049471172456133,
+      0.0711759688958996,
+      0.0866865098454448,
+      0.1088912894277757
+    ],
+    "Loss only": [
+      0.0177653440013323,
+      0.0323339440605339,
+      0.0565636828649779,
+      0.0956690739885703,
+      0.1279070779448085
+    ],
+    "ReviewGuard": [
+      0.0247423572904712,
+      0.0194436416934152,
+      0.0087094629935675,
+      0.0058451594889967,
+      0.0104381625945303
+    ],
+    "ReviewGuard calibrated": [
+      0.0107043113673467,
+      0.0056123264919452,
+      0.0010854682922642,
+      0.0010096331641168,
+      0.0007409015304168
+    ]
+  },
+  "attack_sweep_means": {
+    "No defense": 0.11211114811114808,
+    "Group only": 0.07166975721442767,
+    "Loss only": 0.06604782457204458,
+    "ReviewGuard": 0.013835756812196181,
+    "ReviewGuard calibrated": 0.00383052816921794
+  },
+  "seed_stability": {
+    "mean": 0.008924974512383079,
+    "sample_std": 0.004225079158993951,
+    "min": 0.0044277283185564,
+    "max": 0.014189832501822
+  },
+  "strong_baselines": {
+    "Uber:No defense": 0.1145185185185185,
+    "Uber:Loss-mixture only": 0.0565636828649779,
+    "Uber:CARD": 0.0087094629935675,
+    "Uber:CARD-T": 0.0010854682922642,
+    "Google Apps:No defense": 0.0734084165224264,
+    "Google Apps:Loss-mixture only": 0.0926764960616213,
+    "Google Apps:CARD": 0.0505419066655054,
+    "Google Apps:CARD-T": 0.0061151749519789
+  },
+  "representation": {
+    "uber:TF-IDF cohort:No defense": 0.1145185185185185,
+    "uber:TF-IDF cohort:CARD": 0.0087094629935675,
+    "uber:TF-IDF cohort:CARD-T": 0.0010854682922642,
+    "google_play_app_reviews:TF-IDF cohort:No defense": 0.0734084165224264,
+    "google_play_app_reviews:TF-IDF cohort:CARD": 0.0505419066655054,
+    "google_play_app_reviews:TF-IDF cohort:CARD-T": 0.0061151749519789,
+    "uber:intfloat/multilingual-e5-small:No defense": 0.1145185185185185,
+    "uber:intfloat/multilingual-e5-small:CARD": 0.0251917211675947,
+    "uber:intfloat/multilingual-e5-small:CARD-T": 0.0010529266380987,
+    "google_play_app_reviews:intfloat/multilingual-e5-small:No defense": 0.0734084165224264,
+    "google_play_app_reviews:intfloat/multilingual-e5-small:CARD": 0.0549032181692592,
+    "google_play_app_reviews:intfloat/multilingual-e5-small:CARD-T": 0.0034070908424918
+  },
+  "attack_types_reviewguard": {
+    "template_review_bomb": 0.0269452571325628,
+    "paraphrase_review_bomb": 0.0479919609939487,
+    "slow_drift_attack": 0.0476856133710615,
+    "mixed_rating_camouflage": 0.0167257820084851
+  },
+  "scale_100k": {
+    "No defense": 0.1138561403508771,
+    "Cohort only": 0.0515093488060587,
+    "DivideMix only": 0.0776488880022474,
+    "CARD": 0.0073642512052012
+  },
+  "formula_means": {
+    "Cohort only": {
+      "Uber": 0.0790562351563133,
+      "Google Apps": 0.0334453469958434,
+      "Overall": 0.0562507910760783
+    },
+    "Geometric mean": {
+      "Uber": 0.0510351233383915,
+      "Google Apps": 0.05392969766855,
+      "Overall": 0.0524824105034708
+    },
+    "Linear average": {
+      "Uber": 0.0770427396976887,
+      "Google Apps": 0.0637300171296493,
+      "Overall": 0.070386378413669
+    },
+    "Loss-mixture only": {
+      "Uber": 0.0781184447147227,
+      "Google Apps": 0.1010254519521531,
+      "Overall": 0.0895719483334379
+    },
+    "Min": {
+      "Uber": 0.0151927616148221,
+      "Google Apps": 0.0476995824608695,
+      "Overall": 0.0314461720378458
+    },
+    "Product CARD": {
+      "Uber": 0.0111091066926274,
+      "Google Apps": 0.0494365007926614,
+      "Overall": 0.0302728037426444
+    }
+  },
+  "correlations": [
+    {
+      "dataset": "Google Apps",
+      "pearson_corr_c_u": -0.1805419578726918,
+      "spearman_corr_c_u": -0.1471554073720328
+    },
+    {
+      "dataset": "Uber",
+      "pearson_corr_c_u": -0.1769481768800682,
+      "spearman_corr_c_u": -0.1027458336125259
+    }
+  ],
+  "feature_ablation": {
+    "without_semantic_compactness_score": 0.0068022479612647,
+    "without_version_concentration_score": 0.0072267020216589,
+    "all_features": 0.0087094629935675,
+    "without_cluster_size_score": 0.0088685519617906,
+    "without_burst_score": 0.0135272525007906,
+    "without_duplicate_score": 0.036385565328123,
+    "without_low_rating_cluster_score": 0.0659472910667725
+  },
+  "simplex": [
+    {
+      "dataset": "Uber",
+      "num_candidates": 2008,
+      "default_tvd": 0.0087094629935675,
+      "default_rank": 115,
+      "default_percentile": 0.9432270916334662,
+      "best_candidate": "dirichlet_0618",
+      "best_tvd": 0.0005647359992201,
+      "default_minus_best": 0.0081447269943473
+    },
+    {
+      "dataset": "Google Apps",
+      "num_candidates": 2008,
+      "default_tvd": 0.0505419066655054,
+      "default_rank": 582,
+      "default_percentile": 0.7106573705179283,
+      "best_candidate": "dirichlet_0362",
+      "best_tvd": 0.0344842593570605,
+      "default_minus_best": 0.0160576473084449
+    }
+  ],
+  "sensitivity": [
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 3,
+      "midpoint": 0.55,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.0182388367734143
+    },
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 3,
+      "midpoint": 0.45,
+      "sharpness": 6.0,
+      "tvd_to_clean": 0.0174396406573136
+    },
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 3,
+      "midpoint": 0.35,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.0097194071318146
+    },
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 3,
+      "midpoint": 0.45,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.0087094629935675
+    },
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 5,
+      "midpoint": 0.45,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.0089673059949507
+    },
+    {
+      "cohort_weight_floor": 0.01,
+      "cv_splits": 3,
+      "midpoint": 0.45,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.006591033925551
+    },
+    {
+      "cohort_weight_floor": 0.05,
+      "cv_splits": 3,
+      "midpoint": 0.45,
+      "sharpness": 14.0,
+      "tvd_to_clean": 0.0064409531435054
+    },
+    {
+      "cohort_weight_floor": 0.03,
+      "cv_splits": 3,
+      "midpoint": 0.45,
+      "sharpness": 10.0,
+      "tvd_to_clean": 0.007325151921712
+    }
+  ],
+  "review_examples": [
+    {
+      "row_id": "real_6402",
+      "attack_type": "clean_real",
+      "is_injected_attack": 0,
+      "content": "So far my experience with Uber has been awesome",
+      "at": "2024-12-05 04:05:33",
+      "reviewCreatedVersion": "4.554.10001",
+      "sample_weight": 0.9665293195584632,
+      "dm_sample_weight": 0.9679151409031704,
+      "cohort_dm_sample_weight": 0.9355183625274752
+    },
+    {
+      "row_id": "attack_279",
+      "attack_type": "template_review_bomb",
+      "is_injected_attack": 1,
+      "content": "Uber is unusable after the old update. Driver cancels and I still get charged.",
+      "at": "2024-12-11 05:19:20",
+      "reviewCreatedVersion": "4.532.10001",
+      "sample_weight": 0.1908243341547637,
+      "dm_sample_weight": 0.9524654172328718,
+      "cohort_dm_sample_weight": 0.1817535790489019
+    }
+  ]
+}

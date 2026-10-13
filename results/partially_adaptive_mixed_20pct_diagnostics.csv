@@ -1,0 +1,10 @@
+dataset,attack_type,metric,value
+Uber,partially_adaptive_mixed,max_duplicate_share,0.0005555555555555556
+Uber,partially_adaptive_mixed,max_hourly_injected_count,24
+Uber,partially_adaptive_mixed,dominant_version_share,0.4444444444444444
+Uber,partially_adaptive_mixed,low_rating_share,0.8
+Uber,partially_adaptive_mixed,number_of_unique_normalized_texts,1800
+Uber,partially_adaptive_mixed,campaign_start,2024-12-06 00:06:52
+Uber,partially_adaptive_mixed,campaign_end,2024-12-11 23:58:03
+Uber,partially_adaptive_mixed,top_3_real_versions,4.554.10001 | 4.555.10003 | 4.556.10005
+Uber,partially_adaptive_mixed,injected_rating_counts,1-star:900; 2-star:540; 3-star:180; 4-star:180

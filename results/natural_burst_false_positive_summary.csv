@@ -1,0 +1,8 @@
+dataset,bucket_granularity_used,group,number_of_reviews,number_of_buckets,mean_low_rating_count_per_retained_natural_burst_bucket,max_duplicate_share,median_weight,mean_weight,percent_weight_lt_0_3,percent_weight_lt_0_5
+Uber,hourly,Normal low-rating reviews,1974,,,0.003546,0.779381,0.639488,18.389058,22.441743
+Uber,hourly,Natural low-rating burst,227,23,9.869565,0.008811,0.648334,0.596617,14.096916,18.942731
+Uber,hourly,Injected template attack,635,,,0.085039,0.160323,0.169952,97.952756,100.000000
+Uber,hourly,Injected paraphrase attack,459,,,0.021786,0.602299,0.580602,10.021786,25.708061
+Uber,hourly,Injected slow-drift attack,388,,,0.211340,0.030000,0.054634,96.907216,100.000000
+Uber,hourly,Injected mixed-rating camouflage,318,,,0.220126,0.035986,0.297994,53.459119,58.805031
+Uber,hourly,Injected coordinated attack,1800,,,0.045556,0.175769,0.272431,67.444444,73.777778

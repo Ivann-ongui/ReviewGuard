@@ -1,0 +1,49 @@
+dataset,attack_ratio,formula,value
+Uber,0.1,Cohort only,0.049471172456133077
+Uber,0.1,Loss-mixture only,0.03233394406053397
+Uber,0.1,Linear average,0.03625755587871942
+Uber,0.1,Geometric mean,0.030776664981046434
+Uber,0.1,Min,0.02237046036763634
+Uber,0.1,Product CARD,0.01944364169341526
+Uber,0.2,Cohort only,0.07117596889589962
+Uber,0.2,Loss-mixture only,0.05656368286497798
+Uber,0.2,Linear average,0.06290449575706157
+Uber,0.2,Geometric mean,0.038730131919984534
+Uber,0.2,Min,0.012784862142283087
+Uber,0.2,Product CARD,0.008709462993567512
+Uber,0.3,Cohort only,0.08668650984544488
+Uber,0.3,Loss-mixture only,0.09566907398857037
+Uber,0.3,Linear average,0.09104102550204518
+Uber,0.3,Geometric mean,0.05988841666159957
+Uber,0.3,Min,0.013390393213939658
+Uber,0.3,Product CARD,0.005845159488996752
+Uber,0.4,Cohort only,0.10889128942777579
+Uber,0.4,Loss-mixture only,0.1279070779448085
+Uber,0.4,Linear average,0.11796788165292872
+Uber,0.4,Geometric mean,0.07474527979093583
+Uber,0.4,Min,0.012225330735429366
+Uber,0.4,Product CARD,0.0104381625945303
+Google Apps,0.1,Cohort only,0.021704689842017566
+Google Apps,0.1,Loss-mixture only,0.06301970930983203
+Google Apps,0.1,Linear average,0.03908231590471355
+Google Apps,0.1,Geometric mean,0.0410874333430676
+Google Apps,0.1,Min,0.05494783199651156
+Google Apps,0.1,Product CARD,0.056388706065523306
+Google Apps,0.2,Cohort only,0.03097038045585765
+Google Apps,0.2,Loss-mixture only,0.09267649606162137
+Google Apps,0.2,Linear average,0.058838120445818404
+Google Apps,0.2,Geometric mean,0.051984418199614676
+Google Apps,0.2,Min,0.04850508432395551
+Google Apps,0.2,Product CARD,0.05054190666550543
+Google Apps,0.3,Cohort only,0.040591501758093354
+Google Apps,0.3,Loss-mixture only,0.11193958311223753
+Google Apps,0.3,Linear average,0.07312720127854117
+Google Apps,0.3,Geometric mean,0.059881865980828855
+Google Apps,0.3,Min,0.04257592465103316
+Google Apps,0.3,Product CARD,0.04411690129731518
+Google Apps,0.4,Cohort only,0.04051481592740519
+Google Apps,0.4,Loss-mixture only,0.13646601932492164
+Google Apps,0.4,Linear average,0.0838724308895243
+Google Apps,0.4,Geometric mean,0.0627650731506891
+Google Apps,0.4,Min,0.0447694888719781
+Google Apps,0.4,Product CARD,0.046698489142302

@@ -1,0 +1,9 @@
+dataset,method,tvd_to_clean
+google_play_app_reviews,Embedding-CARD,0.0549032181692592
+google_play_app_reviews,Embedding-CARD-T,0.0034070908424918
+google_play_app_reviews,Loss-mixture only,0.0926764960616213
+google_play_app_reviews,No defense,0.0734084165224264
+uber,Embedding-CARD,0.0251917211675947
+uber,Embedding-CARD-T,0.0010529266380987
+uber,Loss-mixture only,0.0565636828649779
+uber,No defense,0.1145185185185185

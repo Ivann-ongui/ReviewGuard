@@ -1,0 +1,81 @@
+dataset,attack_ratio,diagnostic,value
+Uber,0.1,pearson_corr_c_u,-0.19893297266733115
+Uber,0.1,spearman_corr_c_u,-0.17718335804087956
+Uber,0.1,mean_c_clean_minus_attack,0.2631267505294336
+Uber,0.1,mean_u_clean_minus_attack,0.024019720665762856
+Uber,0.1,tvd_Cohort only,0.049471172456133077
+Uber,0.1,tvd_Loss-mixture only,0.03233394406053397
+Uber,0.1,tvd_Linear average,0.03625755587871942
+Uber,0.1,tvd_Geometric mean,0.030776664981046434
+Uber,0.1,tvd_Min,0.02237046036763634
+Uber,0.1,tvd_Product CARD,0.01944364169341526
+Uber,0.2,pearson_corr_c_u,-0.17694817688006823
+Uber,0.2,spearman_corr_c_u,-0.1027458336125259
+Uber,0.2,mean_c_clean_minus_attack,0.39731868563584183
+Uber,0.2,mean_u_clean_minus_attack,6.693576098815157e-05
+Uber,0.2,tvd_Cohort only,0.07117596889589962
+Uber,0.2,tvd_Loss-mixture only,0.05656368286497798
+Uber,0.2,tvd_Linear average,0.06290449575706157
+Uber,0.2,tvd_Geometric mean,0.038730131919984534
+Uber,0.2,tvd_Min,0.012784862142283087
+Uber,0.2,tvd_Product CARD,0.008709462993567512
+Uber,0.3,pearson_corr_c_u,-0.1857259627993345
+Uber,0.3,spearman_corr_c_u,-0.0745514200418254
+Uber,0.3,mean_c_clean_minus_attack,0.41921777591042625
+Uber,0.3,mean_u_clean_minus_attack,-0.02341907854554559
+Uber,0.3,tvd_Cohort only,0.08668650984544488
+Uber,0.3,tvd_Loss-mixture only,0.09566907398857037
+Uber,0.3,tvd_Linear average,0.09104102550204518
+Uber,0.3,tvd_Geometric mean,0.05988841666159957
+Uber,0.3,tvd_Min,0.013390393213939658
+Uber,0.3,tvd_Product CARD,0.005845159488996752
+Uber,0.4,pearson_corr_c_u,-0.24184561342749142
+Uber,0.4,spearman_corr_c_u,-0.11685957889216506
+Uber,0.4,mean_c_clean_minus_attack,0.4622685454658113
+Uber,0.4,mean_u_clean_minus_attack,-0.06935236795778943
+Uber,0.4,tvd_Cohort only,0.10889128942777579
+Uber,0.4,tvd_Loss-mixture only,0.1279070779448085
+Uber,0.4,tvd_Linear average,0.11796788165292872
+Uber,0.4,tvd_Geometric mean,0.07474527979093583
+Uber,0.4,tvd_Min,0.012225330735429366
+Uber,0.4,tvd_Product CARD,0.0104381625945303
+Google Apps,0.1,pearson_corr_c_u,-0.15196594956805642
+Google Apps,0.1,spearman_corr_c_u,-0.11004340135767372
+Google Apps,0.1,mean_c_clean_minus_attack,0.4180806712770794
+Google Apps,0.1,mean_u_clean_minus_attack,-0.16178473066653654
+Google Apps,0.1,tvd_Cohort only,0.021704689842017566
+Google Apps,0.1,tvd_Loss-mixture only,0.06301970930983203
+Google Apps,0.1,tvd_Linear average,0.03908231590471355
+Google Apps,0.1,tvd_Geometric mean,0.0410874333430676
+Google Apps,0.1,tvd_Min,0.05494783199651156
+Google Apps,0.1,tvd_Product CARD,0.056388706065523306
+Google Apps,0.2,pearson_corr_c_u,-0.18054195787269184
+Google Apps,0.2,spearman_corr_c_u,-0.14715540737203286
+Google Apps,0.2,mean_c_clean_minus_attack,0.5346124809583942
+Google Apps,0.2,mean_u_clean_minus_attack,-0.15803749628585295
+Google Apps,0.2,tvd_Cohort only,0.03097038045585765
+Google Apps,0.2,tvd_Loss-mixture only,0.09267649606162137
+Google Apps,0.2,tvd_Linear average,0.058838120445818404
+Google Apps,0.2,tvd_Geometric mean,0.051984418199614676
+Google Apps,0.2,tvd_Min,0.04850508432395551
+Google Apps,0.2,tvd_Product CARD,0.05054190666550543
+Google Apps,0.3,pearson_corr_c_u,-0.2270399283573
+Google Apps,0.3,spearman_corr_c_u,-0.2600781019881548
+Google Apps,0.3,mean_c_clean_minus_attack,0.5704369091987704
+Google Apps,0.3,mean_u_clean_minus_attack,-0.16246388804857448
+Google Apps,0.3,tvd_Cohort only,0.040591501758093354
+Google Apps,0.3,tvd_Loss-mixture only,0.11193958311223753
+Google Apps,0.3,tvd_Linear average,0.07312720127854117
+Google Apps,0.3,tvd_Geometric mean,0.059881865980828855
+Google Apps,0.3,tvd_Min,0.04257592465103316
+Google Apps,0.3,tvd_Product CARD,0.04411690129731518
+Google Apps,0.4,pearson_corr_c_u,-0.28129037126436063
+Google Apps,0.4,spearman_corr_c_u,-0.2741765070863343
+Google Apps,0.4,mean_c_clean_minus_attack,0.6225409130341536
+Google Apps,0.4,mean_u_clean_minus_attack,-0.1856377374775937
+Google Apps,0.4,tvd_Cohort only,0.04051481592740519
+Google Apps,0.4,tvd_Loss-mixture only,0.13646601932492164
+Google Apps,0.4,tvd_Linear average,0.0838724308895243
+Google Apps,0.4,tvd_Geometric mean,0.0627650731506891
+Google Apps,0.4,tvd_Min,0.0447694888719781
+Google Apps,0.4,tvd_Product CARD,0.046698489142302
